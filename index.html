@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="build/js/app.js"></script>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/styles.css">
+  </head>
+  <body>
+    <div id="search-area" class="well">
+      <h1>Search For GitHub User</h1>
+      <div class="search-form">
+        <input type="text" style="text-align:center" id="searchUser" placeholder="'Ryan'"/>
+        <button type="button" id="search">search</button>
+      </div>
+    </div>
+    <div id="info-toggle" class="well">
+      <div id="results">
+        <div class="row">
+            <div id="username"></div>
+            <h2 id="name"></h2>
+          <div id="result-text">
+              <h5 id="location"></h3>
+              <h6 id="bio"></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div id="repo-results" class="container">
+        <table class="table table-hover display-head"><tbody class="display-repos"></tbody></table>
+    </div>
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+  </body>
+</html>
